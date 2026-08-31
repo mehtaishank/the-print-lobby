@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env
+.env.local
+.env*.local
+
+# Runtime data — never commit customer files or the order store
+data/
+uploads/
+!data/.gitkeep
+!uploads/.gitkeep
+
+*.log
+.DS_Store

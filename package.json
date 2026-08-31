@@ -1,0 +1,21 @@
+{
+  "name": "print-shop-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cleanup": "node scripts/cleanup.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "next": "14.2.35",
+    "pdf-lib": "1.17.1",
+    "pg": "^8.12.0",
+    "qrcode": "^1.5.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
